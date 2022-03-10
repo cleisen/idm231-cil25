@@ -7,19 +7,40 @@
     <title>Christina Leisen - Assignment 4</title>
 </head>
 <body>
-    <h1>What season is your birthday in?</h1>
-
-    <form action="">
-        <label for="birthdayInput">Enter your birthday: </label>
-        <input id="birthdayInput" class="js-date-input" type="date" name="birthday">
-        <button class="js-submit-button" type="button">Submit</button>
-      </form>
-
-      <div>
-        <p date-content-area class="date"></p>
-        <p season-content-area class="season"></p>
-    </div>
+    <main>
+        <h1>What season is your birthday in?</h1>
+    
+        <form action="">
+            <label for="birthdayInput">Enter your birthday: </label>
+            <input id="birthdayInput" class="js-date-input" type="date" name="birthday">
+            <button class="js-submit-button" type="button">Submit</button>
+          </form>
+    
+          <div>
+            <p date-content-area class="date"></p>
+            <p season-content-area class="season"></p>
+        </div>
+    </main>
 
     <script src="birthday.js"></script>
+
+    <style>
+
+        main{
+            font-family: quasimoda;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: green;
+            font-size: 20px;
+            padding-top: 200px;
+        }
+        body{
+            background-color: #e1f1c6;
+        }
+        h1{
+            font-size: 50px;
+        }
+    </style>
 </body>
 </html>

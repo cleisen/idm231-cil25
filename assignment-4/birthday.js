@@ -1,5 +1,5 @@
 const submitButton = document.querySelector(".js-submit-button");
-const seasonDisplay = document.querySelector("[season-content-area");
+const seasonDisplay = document.querySelector("[season-content-area]");
 const dateDisplay = document.querySelector("[date-content-area]");
 
 submitButton.addEventListener('click',function(event){
