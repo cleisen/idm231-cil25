@@ -1,6 +1,7 @@
 html{
     height: 100%;
     width: auto;
+    box-sizing: border-box;
 }
 body{
     background: rgb(63,190,251);
@@ -20,7 +21,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 550px;
+    height: 530px;
 }
 #birthday {
     background: rgba(255,255,255, 0.3);
@@ -42,7 +43,7 @@ h1{
     flex-flow: row wrap;
     font-size: 50px;
     opacity: .6;
-    margin: -140px 0;
+    margin: -120px 0;
     align-items: center;
     justify-content: center;
 }
@@ -105,7 +106,7 @@ h1{
     font-weight: 600;
     font-style: normal;
 }
-#font__buttons{
+.font__buttons{
     background: rgba(70, 70, 70, 0.411);
     font-size: 27px;
     border: none;
