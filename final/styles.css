@@ -1,3 +1,5 @@
+/* MAIN THINGS */
+
 html{
     height: 100%;
     width: auto;
@@ -8,6 +10,9 @@ body{
     background: radial-gradient(circle, rgba(63,190,251,1) 0%, rgba(176,159,128,1) 52%, rgba(252,70,86,1) 100%);     color: white;
     font-family: sans-serif;
 }
+
+/* TOP AREA */
+
 h1{
     font-family: capitol, sans-serif;
     font-weight: 600;
@@ -38,6 +43,9 @@ h1{
     border-radius: 70px;
     padding: 5px 10px;
 }
+
+/* BUTTONS */
+
 .all__fonts{
     display: flex;
     flex-flow: row wrap;
@@ -118,7 +126,7 @@ h1{
     height: 55px;
 }
 
-/* Popup container */
+/* Help Button */
 .popup {
     font-family: sans-serif;
     font-weight: 400;
