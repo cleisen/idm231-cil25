@@ -55,65 +55,6 @@ h1{
     align-items: center;
     justify-content: center;
 }
-.aries{
-    font-family: marco,serif;
-    font-weight: 700;
-    font-style: italic;
-}
-.taurus{
-    font-family: fino,serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.gemini{
-    font-family: satisfy,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.cancer{
-    font-family: p22-brass-script-pro,cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-.leo{
-    font-family: bely-display,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.virgo{
-    font-family: novecento-sans,sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-.libra{
-    font-family: relation-one,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.scorpio{
-    font-family: manofa,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.sagittarius{
-    font-family: bree,sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-.capricorn{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-}
-.aquarius{
-    font-family: eckmannpsych-medium,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.pisces{
-    font-family: halyard-display,sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
 .font__buttons{
     background: rgba(70, 70, 70, 0.411);
     font-size: 27px;
@@ -124,6 +65,77 @@ h1{
     padding: 5px;
     width: 55px;
     height: 55px;
+}
+.aries{
+    font-family: marco,serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 8px;
+}
+.taurus{
+    font-family: fino,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+}
+.gemini{
+    font-family: satisfy,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 13px;
+}
+.cancer{
+    font-family: p22-brass-script-pro,cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 9px;
+}
+.leo{
+    font-family: bely-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 8px;
+}
+.virgo{
+    font-family: novecento-sans,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-bottom: 9px;
+}
+.libra{
+    font-family: relation-one,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 13px;
+}
+.scorpio{
+    font-family: manofa,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 14px;
+}
+.sagittarius{
+    font-family: bree,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.capricorn{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-top: 6px;
+}
+.aquarius{
+    font-family: eckmannpsych-medium,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 8px;
+}
+.pisces{
+    font-family: halyard-display,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 8px;
 }
 
 /* Help Button */
