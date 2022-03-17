@@ -4,6 +4,7 @@ html{
     height: 100%;
     width: auto;
     box-sizing: border-box;
+    font-size: 100%;
 }
 body{
     background: rgb(63,190,251);
@@ -70,7 +71,7 @@ h1{
     font-family: marco,serif;
     font-weight: 700;
     font-style: italic;
-    padding-bottom: 8px;
+    padding-bottom: 12px;
 }
 .taurus{
     font-family: fino,serif;
@@ -88,7 +89,7 @@ h1{
     font-family: p22-brass-script-pro,cursive;
     font-weight: 400;
     font-style: normal;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 .leo{
     font-family: bely-display,sans-serif;
@@ -106,13 +107,13 @@ h1{
     font-family: relation-one,sans-serif;
     font-weight: 700;
     font-style: normal;
-    padding-top: 13px;
+    padding-top: 10px;
 }
 .scorpio{
     font-family: manofa,sans-serif;
     font-weight: 700;
     font-style: normal;
-    padding-top: 14px;
+    padding-top: 12px;
 }
 .sagittarius{
     font-family: bree,sans-serif;
@@ -145,8 +146,8 @@ h1{
     position: relative;
     top: 0px;
     left: 0px;
-    width: 40px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     display: inline-block;
     cursor: pointer;
     padding: 10px 0 0 0;
@@ -178,4 +179,126 @@ h1{
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s
+}
+
+/* Manual Choice Styling */
+
+.manualchoiceObj {
+    margin: 10rem 0 0 0;
+  }
+  
+  .manualchoice {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  /* THE MODAL */
+
+/* Modal Content */
+
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+/* Hidden Controls */
+[hidden] {
+	display: none !important;
+}
+
+button {
+	background-color: #E46F62;
+	padding: .75rem;
+	margin: .75rem;
+	border-radius: 0;
+	border: 0;
+	font-family: "National Park", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 14px;
+    font-weight: 500;
+	transition: background-color 225ms ease-in-out;
+	transition: color 225ms ease-in-out;
+	border-radius: 20px;
+}
+
+button:hover,
+button:focus {
+	background-color: #DC3F2E;
+	color: white;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.modal {
+	height: 100vh;
+	width: 100vw;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.modal .blanket {
+	background-color: rgba(0, 0, 0, .8);
+
+	height: 100vh;
+	width: 100vw;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.modal-body {
+	background-color: #CCA831;
+	border: 1rem groove #335145;
+
+	height: 85vh;
+	max-width: 60vw;
+
+	position: relative;
+	z-index: 101;
+
+	padding: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	font-size: 2rem;
+	font-weight: 300;
+	text-align: center;
+
+	border-radius: 50px;
+
+}
+
+/* Modal Content Styling */
+
+
+#zTitle {
+	font-size: 2.5rem;
+	text-shadow: 0 0 6px #FF0000;
+}
+
+#zDateRange {
+	font-size: 2rem;
+	font-family: "Subway Shadow", "National Park", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#zMoreInfo {
+	font-size: 1rem;
+	text-align: left;
+	padding-left: 1rem;
 }

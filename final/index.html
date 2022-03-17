@@ -24,27 +24,45 @@
         <div class="title__entry">
             <h1>What Font Matches Your Vibe?</h1>
     
-            <form action="">
-                <label for="birthdayInput">enter birthday: </label>
-                <input id="birthday" class="js-date-input" type="date" name="birthday">
-                <button class="js-submit-button" type="button">submit</button>
+            <form id="userInfo" name="myForm">
+                <div class="control">
+                    <label for="birthdayInput">enter birthday: </label>
+                    <input id="birthday" type="date" name="date" required>
+                    <button class="js-submit-button" type="button" id="userSubmit">submit</button>
+                </div>
               </form>
         </div>
 
         <!-- BUTTONS -->
         <div class="all__fonts">
-            <button class="font__buttons aries" data-audio-file="dj.mp3">1</button>
-            <button class="font__buttons taurus" data-audio-file="shooting-stars.mp3">2</button>
-            <button class="font__buttons gemini" data-audio-file="correct.mp3">3</button>
-            <button class="font__buttons cancer" data-audio-file="crickets.mp3">4</button>
-            <button class="font__buttons leo" data-audio-file="ding.mp3">5</button>
-            <button class="font__buttons virgo" data-audio-file="elevator.mp3">6</button>
-            <button class="font__buttons libra" data-audio-file="knocking.mp3">7</button>
-            <button class="font__buttons scorpio" data-audio-file="pink-panther.mp3">8</button>
-            <button class="font__buttons sagittarius" data-audio-file="sombrero.mp3">9</button>
-            <button class="font__buttons capricorn" data-audio-file="spongebob-fail.mp3">10</button>
-            <button class="font__buttons aquarius" data-audio-file="teleport.mp3">11</button>
-            <button class="font__buttons pisces" data-audio-file="lil-song.mp3">12</button>
+            <button class="font__buttons capricorn"  id="spongebob-fail" data-audio-file="spongebob-fail.mp3">1</button>
+            <button class="font__buttons aquarius"   id="teleport" data-audio-file="teleport.mp3">2</button>
+            <button class="font__buttons pisces"     id="lil-song" data-audio-file="lil-song.mp3">3</button>
+            <button class="font__buttons aries"      id="dj" data-audio-file="dj.mp3">4</button>
+            <button class="font__buttons taurus"     id="shooting-stars" data-audio-file="shooting-stars.mp3">5</button>
+            <button class="font__buttons gemini"     id="correct" data-audio-file="correct.mp3">6</button>
+            <button class="font__buttons cancer"     id="crickets" data-audio-file="crickets.mp3">7</button>
+            <button class="font__buttons leo"        id="ding" data-audio-file="ding.mp3">8</button>
+            <button class="font__buttons virgo"      id="elevator" data-audio-file="elevator.mp3">9</button>
+            <button class="font__buttons libra"      id="knocking" data-audio-file="knocking.mp3">10</button>
+            <button class="font__buttons scorpio"    id="pink-panther" data-audio-file="pink-panther.mp3">11</button>
+            <button class="font__buttons sagittarius" id="sombrero" data-audio-file="sombrero.mp3">12</button>
+        </div>
+
+                <!-- Modal (modal is initially hidden)-->
+        <div id="modal" class="modal" hidden>
+            <div class="modal-body">
+            <div class="modal-content">
+                <p class="titleAndDate">
+                <span id="zTitle">Title</span> <br> <span id="zDateRange">Date Range</span>
+                </p>
+                <div id="zMoreInfo">
+                <p>Object description goes here</p>
+                </div>
+                <button id="btn-modal-close" class="toggle-modal">Close</button>
+            </div>
+            </div>
+            <div class="blanket"></div>
         </div>
 
         <audio id="speakers"></audio>
