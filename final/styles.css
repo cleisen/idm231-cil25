@@ -260,8 +260,8 @@ button:hover {
 }
 
 .modal-body {
-	background-color: #CCA831;
-	border: 1rem groove #335145;
+	background-color: rgb(218,90,76);
+    background: linear-gradient(0deg, rgba(218,90,76,1) 0%, rgba(238,215,171,1) 27%, rgba(255,255,255,1) 62%);
 
 	height: 85vh;
 	max-width: 60vw;
@@ -294,13 +294,21 @@ button:hover {
 }
 
 #zDateRange {
-	font-size: 2rem;
+    font-size: 30px;
     color: black;
+    font-weight: 500;
+    /* font-family: capitol, sans serif; */
 }
 
+.titleAndDate{
+    margin-top: -30px;
+
+}
 #zMoreInfo {
 	font-size: 1rem;
 	text-align: left;
 	padding-left: 1rem;
     color: black;
+    text-align: center;
+    line-height: 20px;
 }
